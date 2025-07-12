@@ -1,0 +1,72 @@
+.navbar{
+    background-image: url('/images/Hero-bg.png'); 
+    background-size: cover;                 
+    background-position: center;            
+    background-repeat: no-repeat; 
+    color:#4E47FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.sign{
+    margin-left: 10px;
+    background-color: #4E47FF;
+    color:aliceblue;
+    border-radius: 8px;
+    border: 1px solid #4E47FF;
+    width: 132px; ;
+    height: 48px;
+}
+ .logo{
+     margin-right: 10px;
+    width: 99px; ;
+    height: 51px;
+
+ }   
+ .hero-header {
+  background-image: url('/images/Hero-bg.png');
+  background-size: cover;   
+              
+  background-repeat: no-repeat;          
+  font-weight: bold;
+  font-size: 30px;
+  height: 500px;                         
+  width: 100%;  
+   text-align: center;                         
+
+  display: flex;                         
+  justify-content: center;
+  align-items: center;
+ }
+ .head{
+    text-align: center;
+    
+ }
+ .button{
+    position: relative;    
+    right: 25%;           
+    top: 27%; 
+    background-color: #4E47FF;
+    color:aliceblue;
+    border-radius: 4px;
+    width:102px;
+    height:40px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+ }
+
+.boltu{
+    background-color: #4E47FF;
+    color:aliceblue;
+
+}
+     
+    
+
+   
+   
+
+
+ 
