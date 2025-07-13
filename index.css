@@ -49,6 +49,7 @@
     right: 25%;           
     top: 27%; 
     background-color: #4E47FF;
+    text-decoration: none;
     color:aliceblue;
     border-radius: 4px;
     width:102px;
@@ -56,6 +57,7 @@
     margin-top: 20px;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
  }
 
 .seen{
@@ -64,6 +66,8 @@
     border-radius: 4px;
     padding: 7px 4px;
     border: none;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 
 }
 .see-pic{
@@ -96,7 +100,7 @@ margin-left:20%;
   margin-right: 20%;
   margin-left: 20%;
   height: 250px;
-  border-radius: 2px;
+  border-radius: 8px;
   border: 1px solid rgba(78, 71, 255, 0.1);
   display: flex;
   flex-direction: column; /***********vvip***********/
@@ -123,6 +127,7 @@ margin-left:20%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 }
 
 .am {
@@ -134,4 +139,152 @@ margin-left:20%;
 .sub {
   font-size: 12.5px;
   color: #00000080;
+}
+.reviews-section h3 {
+    font-size: 28px;
+    color: #252432;
+    margin-bottom: 40px;
+}
+
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.review-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+
+.star-icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+.review-card h4 {
+    font-size: 18px;
+    color: #252432;
+    margin-bottom: 8px;
+}
+
+.review-card p {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviewer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviewer-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #58585f;
+}
+
+.review-date {
+    font-size: 12px;
+    color: #9ca3af;
+}
+.reviewh{
+  margin-top: 8%;
+  text-align: center;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+    border-radius: 12px; 
+}
+.cta-card {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    border: 2px solid white; 
+}
+
+.cta-section h2 {
+    font-size: 32px;
+    color: #252432;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.cta-section p {
+    font-size: 16px;
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #5a4bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.cta-btn:hover {
+    background-color: #7c3aed;
+    transform: scale(1.05);
+}
+
+.cta-image img {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.logo-footer li, .logo-footer ul{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  color: #8987A1;
+  
+  justify-content: space-around;
+  gap:5px;
+}
+.logo-footer{
+  text-align: center;
+  align-items: center;
+}
+.log{
+  color:#7c3aed;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+.des{
+  color:#8987A1;
+  margin-bottom: 8px;
 }
