@@ -17,6 +17,11 @@
     border: 1px solid #4E47FF;
     width: 132px; ;
     height: 48px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.sign:hover {
+    background-color: #7c3aed;
+    transform: scale(1.05);
 }
  .logo{
      margin-right: 10px;
@@ -60,6 +65,10 @@
     transition: background-color 0.3s ease, transform 0.3s ease;
  }
 
+.button:hover {
+    background-color: #7c3aed;
+    transform: scale(1.05);
+}
 .seen{
     background-color: #4E47FF;
     color:aliceblue;
@@ -69,6 +78,11 @@
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
 
+}
+
+.seens:hover {
+    background-color: #7c3aed;
+    transform: scale(1.05);
 }
 .see-pic{
 width: 350px;
@@ -287,4 +301,77 @@ margin-left:20%;
 .des{
   color:#8987A1;
   margin-bottom: 8px;
+}
+.fifth {
+  background-color: #f6f8ff;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.fifth-whole {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px 0;
+}
+
+.fifth-head {
+  flex: 1;
+  min-width: 300px;
+}
+
+.fifth-head h1 {
+ text-align: center;
+ align-items: center;
+ margin-top: 20px;
+  font-size: 50px;
+  font-weight: 800;
+  color: #0f0f0f;
+  margin-bottom: 20px;
+}
+
+.form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form label {
+  font-size: 14px;
+  color: #333;
+  margin-top: 8px;
+}
+
+.form input,
+.form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.get {
+  padding: 12px;
+  background-color: #5a4bff;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.get:hover {
+  background-color: #7c3aed;
+  transform: scale(1.05);
 }
